@@ -2,27 +2,32 @@
 コンテナで動作するVim
 
 ## Description
-カレントディレクトをマウントしてVimを起動する．  
-引数にファイル名 or ディレクト名を指定できる．  
+カレントディレクトをマウントしてVimを起動する．
+引数にファイル名 or ディレクト名を指定できる．
 
 ## Build
+
 ```
-$docke build -t image-name .
+$docker build -t image-name .
 ```
 
 ## Usage
+
 ```
 dim [カレントディレクト以下のファイル or ディレクト]
 ```
 
 ## Extension
-vimrcを自分のものに変更することで自分の環境に帰ることができる．
+
+vimrcを自分のものに変更することで自分の環境に変えることができる．
 
 ## Plugin
+
 プラグインマネージャには[Vim-plug](https://github.com/junegunn/vim-plug)を使っている．
 
 
 ### Plugin-List
+
 - Shougo/neocomplete.vim
 - junegunn/vim-plug
 - davidhalter/jedi-vim
@@ -40,3 +45,4 @@ vimrcを自分のものに変更することで自分の環境に帰ることが
 - junegunn/fzf
 - junegunn/fzf.vim
 - terryma/vim-expand-region
+- ueokande/popupdict.vim

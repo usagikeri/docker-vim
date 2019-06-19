@@ -98,6 +98,7 @@ Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim',
 Plug 'terryma/vim-expand-region'
+Plug 'ueokande/popupdict.vim'
 call plug#end()
 
 "NerdTree-Tabs
