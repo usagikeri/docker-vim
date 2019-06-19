@@ -45,4 +45,3 @@ vimrcを自分のものに変更することで自分の環境に変えること
 - junegunn/fzf
 - junegunn/fzf.vim
 - terryma/vim-expand-region
-- ueokande/popupdict.vim
