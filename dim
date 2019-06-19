@@ -8,7 +8,7 @@ import os
 
 def main(arg=['']):
     pwd = os.getcwd()
-    c = "docker run -it --name dim --rm -v {}:/home/editor/src usagikeri/docker-vim {}".format(pwd, " ".join(arg))
+    c = "docker run -it --name dim --rm -v {}:/home/editor/src usagikeri/dim {}".format(pwd, " ".join(arg))
     subprocess.call(shlex.split(c))
 
 
